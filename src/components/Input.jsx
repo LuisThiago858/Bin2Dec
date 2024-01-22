@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function InputTextBin(){
     return (
-        <input className={'content-input'} placeholder="Digite um numero binário"></input>
+        <input type={'text'} className={'content-input'} onChange={catchText} placeholder="Digite um numero binário"></input>
     );
 }
 

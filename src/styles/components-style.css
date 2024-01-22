@@ -22,8 +22,8 @@
 @media screen and (max-width: 600px) {
     .content .content-input,
     .content .content-button {
-        width: 100%;  /* Ajustar para largura total em telas pequenas */
-        max-width: none;  /* Remover a limitação de largura máxima */
+        width: 100%; 
+        max-width: none;
     }
 }
 
