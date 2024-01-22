@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import inputTextBin from './componets/Input'
-import './App.css'
+import TitleHeader from './components/Header';
+import InputTextBin from './components/Input';
+import ButtonConvert from './components/Button';
+import './App.css';
+import './styles/components-style.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <h1>Bin2Dec</h1>
-        <div>
-          <inputTextBin />
+        <TitleHeader/>
+        <div className='content'>
+          <InputTextBin />
           
-          <button>Converter</button>
+          <ButtonConvert />
         </div>
       </div>
     </>
